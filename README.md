@@ -34,6 +34,7 @@ Each skill asks Claude to think and respond like a senior PM. You bring the cont
 | `/user-research` | Research | Synthesizes raw interviews and notes into ranked PM insights |
 | `/job-strategy` | Career | Personalized AI job strategy — diagnosis, positioning, outreach, prep |
 | `/resume-builder` | Career | AI-optimized resume — impact bullets, ATS keywords, tailored to the role |
+| `/substack-writer` | Content | Publication-ready Substack article — real-time research, topic selection, style-matched writing, PDF export |
 
 ---
 
@@ -91,12 +92,15 @@ Once installed, invoke any skill by name:
 ```
 /resume-builder  [paste your current resume]
 ```
+```
+/substack-writer  AI agents are replacing junior PMs — write a Substack article on this
+```
 
 Every skill accepts free-text input and returns structured, senior-quality output.
 
 ---
 
-## Repo structure
+## Repo Structure
 
 ```
 miniPM/
@@ -109,7 +113,8 @@ miniPM/
 │   ├── market-research/SKILL.md
 │   ├── user-research/SKILL.md
 │   ├── job-strategy/SKILL.md
-│   └── resume-builder/SKILL.md
+│   ├── resume-builder/SKILL.md
+│   └── substack-writer/SKILL.md
 ├── assets/
 └── README.md
 ```
