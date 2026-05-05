@@ -1,4 +1,4 @@
-# Mini PM
+# Mini PM - For Product Manager
 
 **AI-powered skills for product managers, built as a Claude plugin.**
 
