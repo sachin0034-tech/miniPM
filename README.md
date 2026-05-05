@@ -39,7 +39,6 @@ Each skill asks Claude to think and respond like a senior PM. You bring the cont
 
 ## Install
 
-### Via Claude (Recommended)
 
 1. Open Claude app
 2. Click **Customize** in the sidebar
@@ -61,11 +60,11 @@ Each skill asks Claude to think and respond like a senior PM. You bring the cont
 
 ![banner](./assets/4.png)
 
-6. Click on the plugin
+6. Click on the plugin and then click on install
 
 ![banner](./assets/5.png)
 
-7. Click **Install** — you now have the plugin with all the skills available inside Claude
+1. Now have the plugin with all the skills available inside Claude
 
 ![banner](./assets/6.png)
 
