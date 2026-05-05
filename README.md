@@ -8,6 +8,22 @@ Stop writing the same PRDs, research briefs, and job strategies from scratch. Mi
 
 ---
 
+## Overview
+
+**Mini PM** is a Claude plugin that gives product managers a set of AI-powered skills — pre-built, structured workflows you invoke with a single slash command inside Claude.
+
+Instead of prompting Claude from scratch every time, Mini PM packages senior PM best practices into repeatable skills:
+
+- **Strategy** — write PRDs and audit product specs against a quality checklist
+- **Research** — run competitive and market analysis, or synthesize raw user interviews into ranked insights
+- **Career** — build a personalized AI job strategy and generate an ATS-optimized resume
+
+Each skill asks Claude to think and respond like a senior PM. You bring the context; Mini PM brings the structure and rigor.
+
+**Who it's for:** PMs at any level who want faster, higher-quality output without starting from a blank page — and anyone breaking into product or AI product roles who wants professional-grade frameworks on demand.
+
+---
+
 ## What's inside
 
 | Skill | Category | What it produces |
@@ -23,13 +39,36 @@ Stop writing the same PRDs, research briefs, and job strategies from scratch. Mi
 
 ## Install
 
-### Via Claude plugin marketplace
-Search **Mini PM** in the Claude plugin marketplace and click Install.
+### Via Claude (Recommended)
 
-### Manual install (Claude Code CLI)
-```bash
-git clone https://github.com/sachin0034-tech/mini-pm.git
-cp -r mini-pm/skills/ ~/.claude/commands/
+1. Open Claude app
+2. Click **Customize** in the sidebar
+
+![banner](./assets/7.png)
+
+3. Under **Personal Plugins**, click **Add** → **Create Plugin** → **Add Marketplace**
+
+![banner](./assets/2.png)
+
+4. Paste the repo URL:
+   ```
+   https://github.com/sachin0034-tech/miniPM.git
+   ```
+
+![banner](./assets/3.png)
+
+5. A **Directory** option will appear — under **Personal**, you will see the **miniPM** plugin listed
+
+![banner](./assets/4.png)
+
+6. Click on the plugin
+
+![banner](./assets/5.png)
+
+7. Click **Install** — you now have the plugin with all the skills available inside Claude
+
+![banner](./assets/6.png)
+
 ```
 
 ---
