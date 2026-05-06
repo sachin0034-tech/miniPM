@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/sachin/.claude/plugins/marketplaces/claude-plugins-official/plugins/example-plugin/skills/**)",
+      "Read(//Users/sachin/.claude/plugins/marketplaces/claude-plugins-official/plugins/example-plugin/commands/**)",
+      "Read(//Users/sachin/.claude/plugins/marketplaces/claude-plugins-official/plugins/example-plugin/**)",
+      "Bash(xargs -I{} sh -c 'echo \"=== {} ===\" && cat {}')",
+      "Bash(mkdir -p ~/.claude/commands)",
+      "Bash(cp -r /Users/sachin/HQ/Work/miniPM/skills/prd ~/.claude/commands/)",
+      "Bash(cp -r /Users/sachin/HQ/Work/miniPM/skills/prd-review ~/.claude/commands/)",
+      "Bash(cp -r /Users/sachin/HQ/Work/miniPM/skills/market-research ~/.claude/commands/)",
+      "Bash(cp -r /Users/sachin/HQ/Work/miniPM/skills/user-research ~/.claude/commands/)",
+      "Bash(cp -r /Users/sachin/HQ/Work/miniPM/skills/job-strategy ~/.claude/commands/)",
+      "Bash(cp -r /Users/sachin/HQ/Work/miniPM/skills/resume-builder ~/.claude/commands/)",
+      "Bash(cp -r /Users/sachin/HQ/Work/miniPM/skills/substack-writer ~/.claude/commands/)"
+    ]
+  }
+}
